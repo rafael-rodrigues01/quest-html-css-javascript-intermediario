@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Esse é um desafio proposto pelo curso de vemdobro onde o objetivo é criar um formulário usando html, css e jaca script intermediário criando um formulário de validação."
+    />
+    <title>Quest JavaScript intermediário</title>
+
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="src/css/responsive.css" />
+  </head>
+  <body>
+    <main>
+      <div class="duvidas">
+        <h1 class="pergunta">FICOU COM DÚVIDA?</h1>
+        <h1 class="pergunta">NOS MANDE UMA MENSAGEM!</h1>
+
+        <p>
+          caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e
+          entraremos em contato em menos de 24h.
+        </p>
+      </div>
+
+      <section class="cadastro">
+        <form class="info" action="index.html" method="get">
+          <input
+            class="dados-de-cadastro"
+            type="text"
+            name="q"
+            id="nome-completo"
+            placeholder="Nome completo *"
+          />
+          <p class="campo-obrigatorio">campo obrigatório</p>
+
+          <input
+            class="dados-de-cadastro"
+            type="text"
+            name="q"
+            id="email"
+            placeholder="Email *"
+          />
+
+          <p class="campo-obrigatorio">campo obrigatório</p>
+
+          <input
+            class="dados-de-cadastro"
+            type="text"
+            name="q"
+            id="telefone"
+            placeholder="Telefone *"
+          />
+
+          <p class="campo-obrigatorio">campo obrigatório</p>
+
+          <textarea
+            class="dados-de-cadastro msg"
+            name="q"
+            id="mensagem"
+            cols="38"
+            rows="7"
+            placeholder="Mensagem *"
+          ></textarea>
+
+          <p class="campo-obrigatorio">campo obrigatório</p>
+
+          <p class="alerta">*Campos obrigatórios</p>
+
+          <div class="button"><button id="btn" class="btn">Enviar</button></div>
+        </form>
+      </section>
+    </main>
+
+    <script src="src/js/formulario.js"></script>
+  </body>
+</html>

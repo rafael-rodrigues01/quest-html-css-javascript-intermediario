@@ -1,0 +1,17 @@
+/* reset.css */
+
+html {
+  font-size: 62.5%;
+}
+
+p {
+  font-size: 1.5rem;
+  margin-top: 11px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 400;
+}
