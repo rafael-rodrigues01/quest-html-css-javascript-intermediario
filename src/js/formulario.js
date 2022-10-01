@@ -7,7 +7,6 @@ botao.addEventListener("click", (e) => {
 
   inputs.forEach((input, index) => {
     const campoObrigatorios = document.querySelectorAll(".campo-obrigatorio");
-    console.log(campoObrigatorios[index]);
 
     if (input.value !== "") {
       input.classList.add("borda-verde");
