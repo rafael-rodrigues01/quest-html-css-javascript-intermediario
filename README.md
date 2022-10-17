@@ -41,7 +41,7 @@ working with forEach was very challenging and the algorithm part to solve the pr
 ## Contact
 - LinkedIn - [Rafael Rodrigues](https://github.com/rafael-rodrigues01)
 
-## thanks
+## Thanks
 once again I would like to thank the entire De team in double for the support and the discord community that has made a huge difference to my early career as a front end developer
 
 
